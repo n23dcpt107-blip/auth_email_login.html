@@ -86,3 +86,9 @@ Sau khi chạy, ảnh sẽ nằm trong thư mục screenshots/ (đưa vào phầ
 - screenshots/F-TC05_captcha_required.png
 - screenshots/F-TC06_toggle_eye.png
 Repo: https://github.com/<n23dcpt107-blip>/<auth_email_login.html>
+Demo form: (Github Pages):
+https://<n23dcpt107-blip>.github.io/<auth_email_login.html>/auth_email_login.html
+Hướng dẫn chạy test cục bộ:
+pip install -U pytest selenium webdriver-manager
+pytest -q
+
