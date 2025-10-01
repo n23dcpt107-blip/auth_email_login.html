@@ -78,3 +78,11 @@ Sau khi chạy, ảnh sẽ nằm trong thư mục screenshots/ (đưa vào phầ
 - screenshots/F-TC04_invalid_email.png
 - screenshots/F-TC05_captcha_required.png
 - screenshots/F-TC06_toggle_eye.png
+## 5.1 Screenshots (pytest)
+- screenshots/F-TC01_success.png
+- screenshots/F-TC02_wrong_pwd.png
+- screenshots/F-TC03_empty_emailError.png
+- screenshots/F-TC04_invalid_email.png
+- screenshots/F-TC05_captcha_required.png
+- screenshots/F-TC06_toggle_eye.png
+Viết cho Tu Mai Nguyen
