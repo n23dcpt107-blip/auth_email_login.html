@@ -29,26 +29,9 @@ Sau khi chạy, ảnh sẽ nằm trong thư mục screenshots/ (đưa vào phầ
 
 ---
 
-## 2) Use Case (Mermaid – GitHub tự hiển thị)
-mermaid
-flowchart LR
-  actor((Visitor))
-  subgraph Auth_System
-    UC1([Sign in with email/password])
-    UC2([Go to home])
-    UC3([Need help?])
-    UC4([Create account])
-    UC5([Social login: GitHub])
-    UC6([Social login: Google])
-  end
-  actor --> UC1
-  UC1 --> UC2
-  actor --> UC3
-  actor --> UC4
-  actor --> UC5
-  actor --> UC6
+## 2) Use Case (Ảnh PNG/SVG)
 
----
+![Use Case](./usecase.svg)
 
 ## 3) Test cases (≥ 6 case theo yêu cầu)
 | ID | Tên test | Tiền điều kiện | Bước thực hiện | Kết quả mong đợi |
