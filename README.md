@@ -71,3 +71,10 @@ Sau khi chạy, ảnh sẽ nằm trong thư mục screenshots/ (đưa vào phầ
 - *Mã nguồn*:
   - auth_email_login.html
   - tests/test_auth_email_login.py
+## 5.1 Screenshots (kết quả chạy pytest)
+- screenshots/F-TC01_success.png
+- screenshots/F-TC02_wrong_pwd.png
+- screenshots/F-TC03_empty_emailError.png
+- screenshots/F-TC04_invalid_email.png
+- screenshots/F-TC05_captcha_required.png
+- screenshots/F-TC06_toggle_eye.png
