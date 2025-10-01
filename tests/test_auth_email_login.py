@@ -9,17 +9,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-BASE_URL = "file://" + str((Path(__file__).resolve().parents[1] / "auth_email_login.html").as_posix())
+BASE_URL = "file://" + str((Path(_file_).resolve().parents[1] / "auth_email_login.html").as_posix())
 
 def shot(driver, name):
-    out = Path(__file__).resolve().parents[1] / "screenshots"
+    out = Path(_file_).resolve().parents[1] / "screenshots"
     out.mkdir(exist_ok=True)
     driver.save_screenshot(str(out / f"{name}.png"))
 
 @pytest.fixture(scope="module")
 def driver():
     opts = Options()
-    # opts.add_argument("--headless=new")  # Bật nếu cần chạy headless
+    # opts.add_argument("--headless=new")  # Bật dòng này nếu muốn chạy ẩn
     opts.add_argument("--window-size=1200,900")
     service = Service(ChromeDriverManager().install())
     d = webdriver.Chrome(service=service, options=opts)
