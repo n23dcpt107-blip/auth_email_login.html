@@ -1,6 +1,5 @@
-# Lab 03 – Email Login (Friend) · Selenium + pytest
+# Lab 03 – Email Login · Selenium + pytest
 
-Bài dành cho *bạn của mình*, khác hoàn toàn bài gốc:
 - Dùng *Email + Password* (không có username)
 - Bắt buộc tick *Captcha (demo)*
 - Có *Remember me* (lưu email vào localStorage)
