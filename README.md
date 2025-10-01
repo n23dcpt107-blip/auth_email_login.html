@@ -85,4 +85,4 @@ Sau khi chạy, ảnh sẽ nằm trong thư mục screenshots/ (đưa vào phầ
 - screenshots/F-TC04_invalid_email.png
 - screenshots/F-TC05_captcha_required.png
 - screenshots/F-TC06_toggle_eye.png
-Viết cho Tu Mai Nguyen
+Repo: https://github.com/<n23dcpt107-blip>/<auth_email_login.html>
