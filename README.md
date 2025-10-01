@@ -60,7 +60,7 @@ flowchart LR
 | F-TC05 | Chưa tick Captcha | Mở trang | Email & password đúng nhưng *không* tick Captcha | Lỗi “Please verify captcha.” |
 | F-TC06 | Nút Show/Hide password | Mở trang | Nhập password → bấm 👁️ 2 lần | type đổi password`→text`→`password`; có message “Password visible/hidden” |
 
-*Gợi ý mở rộng (nếu muốn điểm cộng):*
+
 - F-TC07: “Remember me” lưu email vào localStorage → refresh vẫn thấy email + checkbox tick.
 - F-TC08: Link *Need help?* chuyển hash #/help và hiển thị message.
 - F-TC09: Link *Create account* chuyển hash #/register.
